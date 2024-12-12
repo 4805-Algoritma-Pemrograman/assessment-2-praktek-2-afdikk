@@ -4,6 +4,7 @@ public class Nomor1 {
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+        System.out.println("Masukkan nilai N: ");
         int N = input.nextInt();
         cetakFizzBuzz(N);
         System.out.println(Nomor1.class.getDeclaredMethods().length); 
